@@ -123,9 +123,8 @@ class Game
   end
 
   def display
+    print "\033[2J\033[0;0H"
     puts @area
-    puts ""
-    puts "========="
-    puts ""
+    sleep 0.5
   end
 end
