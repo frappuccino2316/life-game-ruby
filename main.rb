@@ -1,6 +1,6 @@
 require "./game"
 
-game = Game.new(10, 10)
+game = Game.new(30, 60)
 print "\033[2J\033[0;0H"
 game.display
 while true do
