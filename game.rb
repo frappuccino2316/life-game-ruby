@@ -46,10 +46,6 @@ class Game
           end
         else
           case count
-          when 0 then
-            result = " "
-          when 1 then
-            result = " "
           when 2 then
             result = "■"
           when 3 then
